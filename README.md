@@ -1,5 +1,3 @@
-# 24v-to-5v-50w-buck-converter-stm32
-24V to 5V 50W Digital Controlled Buck Converter Hardware, Software, and Control Design. Features an STM32-based closed-loop PI regulation, 120kHz PWM, custom PCB, and a Nextion HMI display interface.
 # STM32 Digitally Controlled 24V to 5V (50W) Buck Converter
 
 ![Hardware](https://img.shields.io/badge/Hardware-Custom_PCB-blue.svg)
@@ -41,19 +39,22 @@ Developed using **STM32CubeIDE** and the HAL library, the software architecture 
 
 ## 📂 Repository Structure
 
-*(You can upload your files into these folders later)*
-
-*   `/Hardware` - KiCad/Altium schematic and PCB layout files, Gerber outputs, and BOM.
-*   `/Software` - STM32CubeIDE project workspace, `.c` and `.h` source files.
-*   `/Simulation` - LTspice and MATLAB/Simulink models used for control loop and power stage verification.
-*   `/Docs` - Project reports, component datasheets, and system diagrams.
+*   `/bom` - Bill of Materials (BOM) files.
+*   `/cubemx` - STM32CubeIDE project workspace and C/C++ source code.
+*   `/gerber` - PCB manufacturing and Gerber files.
+*   `/Nextion` - Nextion HMI display interface and GUI files.
+*   `/schematic_pcb_3d` & `/STEP file` - 3D models and CAD files of the PCB.
+*   `buck converter V6.*` - KiCad schematic and PCB design files.
+*   `Buck_converter_24Vto5V.asc` - LTspice simulation model.
+*   `buck_converter_24Vto5V.slx` - MATLAB/Simulink model.
+*   `REPORT.pdf` - Comprehensive project documentation and theoretical calculations (in Turkish).
 
 ## 🚀 Getting Started
 
 1.  Clone this repository: `git clone https://github.com/HakanD1/24v-to-5v-50w-buck-converter-stm32`
-2.  Open the `/Software` project in **STM32CubeIDE**.
+2.  Open the `/cubemx` project folder in **STM32CubeIDE**.
 3.  Compile and flash the firmware onto the STM32F103C8T6 via the SWD interface.
-4.  Load the `.tft` file (if provided) onto your Nextion display.
+4.  Load the `.tft` file (located in the `/Nextion` folder) onto your Nextion display.
 5.  Supply 24V to the main input terminal, and monitor the live parameters on the Nextion screen.
 
 ## 📄 License
