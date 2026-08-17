@@ -50,7 +50,7 @@ Developed using **STM32CubeIDE** and the HAL library, the software architecture 
 
 ## 🚀 Getting Started
 
-1.  Clone this repository: `git clone https://github.com/your-username/stm32-24v-to-5v-50w-buck-converter.git`
+1.  Clone this repository: `git clone https://github.com/HakanD1/24v-to-5v-50w-buck-converter-stm32`
 2.  Open the `/Software` project in **STM32CubeIDE**.
 3.  Compile and flash the firmware onto the STM32F103C8T6 via the SWD interface.
 4.  Load the `.tft` file (if provided) onto your Nextion display.
