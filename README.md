@@ -9,6 +9,7 @@
 A high-performance, fully custom **closed-loop digitally controlled buck converter** capable of stepping down a 24V DC input to a highly stable 5V DC output, providing up to 10A (50W) of continuous power. 
 
 This project integrates custom PCB hardware, STM32 embedded software, mathematical control algorithms, and a Nextion HMI (Human-Machine Interface) into a single, cohesive industrial-grade prototype.
+> ⚠️ **Project Status:** Rather than turning this into a physical product, I built it as an R&D exercise to combine the full design, simulation, and firmware development process into a single project and put my theoretical background into practice. As a result, the PCB, schematic, and firmware files in this repo have not been manufactured — they've only been verified through design and simulation.
 
 ## 🌟 Key Features
 
